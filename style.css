@@ -365,10 +365,6 @@ font-size: 15px;
 @media only screen and (max-width: 560px){
 
 
-body {
-overflow-x: hidden;
-overflow-y: hidden;
-}
 .supporting img {
 display: none;
 }

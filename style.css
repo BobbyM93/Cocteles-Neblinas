@@ -362,7 +362,7 @@ font-size: 15px;
 /* responsive website */
 
 
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 800px){
 
 .header {
 font-size: 14px;
@@ -393,7 +393,7 @@ flex-direction: column;
 
 
 
-@media only screen and (max-width: 874px){
+@media only screen and (max-width: 554px){
 
 .header {
   font-size: 12px;

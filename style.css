@@ -1,0 +1,486 @@
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: white;
+  /* color: black; */
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  text-align: center;
+  background-position: center;
+  background-image: url(./images/background/smokey\ back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 45px;
+
+}
+
+h2 {
+  font-family: 'Beau Rivage', cursive;
+  letter-spacing: 3px;
+  font-size: 3em;
+}
+
+h4 {
+
+  font-family: 'Patrick Hand', cursive;
+
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+h2, h4 {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+p {
+display: inline-block;
+font-family: 'Finlandica', sans-serif;
+}
+
+
+/*header */
+.header {
+  position: absolute;
+   width: 100%;
+   height: 52px;
+   display: flex;
+   background-color: #000000;
+   position: fixed;
+   top: 0px;
+   border-bottom: 1px solid whitesmoke;
+   z-index: 100;
+   margin: auto;
+   justify-content: space-around;
+   font-family: 'Beau Rivage', cursive;
+   font-family: 'Great Vibes', cursive;
+   font-family: 'Satisfy', cursive;
+   font-size: 1.25em;
+   letter-spacing: 1px;
+}
+
+
+.logo {
+  display: flex;
+  height: 100%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 70%;
+}
+
+#navigation {
+  display: flex;
+  height: 2rem;
+  float: right;
+  flex-direction: row;
+  text-align: right;
+  font-size: 1rem;
+  width: 100%;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+#navigation a { 
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#navigation a:hover {
+color: #a1a1a1;
+}
+
+#navigation a li {
+  display: table-cell;
+  height: 100%;
+  text-decoration: none;
+  color: #0a0a23;
+}
+
+#navigation ul {
+display: flex;
+flex-direction: row;
+align-items: center;
+list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/* main */
+
+.main-container {
+  background-image: url(./images/background/main\ background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 713px;
+  display: flex;
+  text-size-adjust: 40px;
+  margin: auto;
+  border-bottom: 1px solid #a1a1a1;
+  color:whitesmoke;
+  letter-spacing: 1.2px;
+  position: relative;
+}
+
+
+.text-over {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+
+/* our cocktails */
+
+.our-cocktails {
+  max-width: 100%;
+}
+
+.cocktails {
+  display:inline-block;
+  text-align: center;
+}
+
+/* .cocktail-container{
+display: contents;
+height: auto;
+padding: 40px;
+padding-right: 40px;
+align-items: center;
+justify-content: space-evenly;
+flex-grow: 1;
+border-bottom: 1px solid #fff;
+width: 100%;
+margin: 40px auto 40px auto;
+} */
+
+.cocktail-drink-and-txt {
+display: contents;
+height: auto;
+padding: 40px;
+padding-right: 40px;
+align-items: center;
+justify-content: space-evenly;
+flex-grow: 1;
+border-bottom: 1px solid #fff;
+width: 100%;
+
+}
+
+.cocktails img{
+display: flex;
+width: 250px;
+height: 300px;
+margin: auto;
+padding-right: 50px;
+}
+
+.text-under {
+width: 250px;
+max-width: 100%;
+text-align: center;
+}
+
+.cocktails img:hover {
+transform: scale(1.2);
+}
+
+.cocktail-container h2 h4 {
+text-align: center;
+}
+
+/* our team */
+
+.title-team {
+margin: 20px;
+}
+
+.team-container {
+display: inline-flex;
+max-width: 100%;
+height: auto;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+padding-top: 0;
+border-bottom: 1px solid white;
+}
+
+
+.team img {
+height: 350px;
+width: 300px;
+padding: 20px;
+padding-bottom: 5px !important;
+
+}
+
+.team-image {
+padding-bottom: 5px;
+}
+
+
+/* form */
+
+form {
+width: 60vw;
+  max-width: 500px;
+  min-width: 30px;
+  margin: 0 auto;
+padding-bottom: 2em;
+
+}
+
+#reservation {
+border-bottom: 1px solid #fff;
+
+}
+
+fieldset {
+border: none;
+  padding: 0.5rem 0;
+}
+
+fieldset:not(:last-of-type) {
+border-bottom: 3px solid #fff;
+}
+
+label {
+display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+margin: 10px 0 0 0;
+  width: 100%;
+min-height: 2em;
+}
+
+input, textarea {
+background-color: whitesmoke;
+border: 1px solid #0a0a23;
+color: black;
+text-align: center;
+}
+
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+
+input[type="submit"] {
+display: block;
+width: 300px;
+margin: 1em auto;
+height: 2em;
+min-width: 300px;
+color: black;
+background: whitesmoke;
+  box-shadow: 0 8px 32px 0 rgba(187, 186, 186, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.70);
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+box-shadow: 5px 5px 5px;
+}
+
+.seated {
+ display: block;
+ align-items: center;
+}
+
+.seating {
+text-align: left;
+}
+
+.reservation-container {
+border-bottom: 1px solid lightgrey;
+width: 100%;
+}
+
+/*contact */
+
+#contact-us {
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+align-content: center;
+margin: auto;
+background-image: url(./images/background/contact\ us\ background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: seashell;
+}
+
+.contact-container {
+width: 100%;
+align-items: center;
+display: flex;
+flex: wrap;
+justify-content: space-between;
+padding-top: 15px;
+padding-right: 50px;
+}
+
+.contact {
+display: block;
+float: left;
+text-align: left;
+}
+
+.contact p {
+margin: 5px;
+}
+
+/* footer */
+footer {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+font-size: 15px;
+}
+
+
+/* responsive website */
+
+
+@media only screen and (max-width: 560px){
+
+
+body {
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.supporting img {
+display: none;
+}
+body {
+width: 80%;
+}
+.header {
+font-size: 14px;
+}
+
+.logo {
+display: none;
+
+}
+header {
+font-size: 10px;
+}
+
+.cocktails img{
+height: 1vh;
+align-items: center;
+
+}
+.contact-container {
+width: 100%;
+align-items: center;
+display: flex;
+flex: wrap;
+padding-top: 15px;
+flex-direction: column;
+}
+} 
+
+
+
+@media only screen and (max-width: 874px){
+
+.header {
+  font-size: 12px;
+  align-items: center;
+}
+
+.logo {
+  display: contents;
+}
+
+.main-container {
+height: 612px;
+}
+
+.text-over h2, h2 {
+font-size: 7vh;
+}
+
+.text-over h4 {
+font-size: 3vh;
+width: 600px;
+}
+
+.heading h4 {
+font-size: 3vh;
+}
+
+.text-under h4 {
+font-size: 1.5rem;
+}
+
+.text-under p {
+font-size: 0.8rem;
+}
+
+.cocktails {
+display: inline-block;
+text-align: center;
+}
+
+
+.contact-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+
+}
+
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  height: 627px;
+}
+.cocktails img, .team img {
+  display: table;
+  width: 150px;
+  height: 200px;
+  float: none;
+  margin: 0 auto;
+
+}
+
+.map {
+padding-top: 30px;
+height: 200px;
+width: 300px;
+}
+}
+/* 
+@media only screen (max-width: 1000px) {
+.contact-container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+} */

@@ -364,13 +364,6 @@ font-size: 15px;
 
 @media only screen and (max-width: 560px){
 
-
-.supporting img {
-display: none;
-}
-body {
-width: 80%;
-}
 .header {
 font-size: 14px;
 }
@@ -384,7 +377,7 @@ font-size: 10px;
 }
 
 .cocktails img{
-height: 1vh;
+height: 1v;
 align-items: center;
 
 }
@@ -469,7 +462,7 @@ height: 200px;
 width: 300px;
 }
 }
-/* 
+
 @media only screen (max-width: 1000px) {
 .contact-container {
   width: 100%;
@@ -479,4 +472,4 @@ width: 300px;
   justify-content: space-between;
   padding-top: 15px;
 }
-} */
+} 

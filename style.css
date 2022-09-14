@@ -153,7 +153,7 @@ nav ul li {
   text-align: center;
 }
 
-/* .cocktail-container{
+ .cocktail-container{
 display: contents;
 height: auto;
 padding: 40px;
@@ -164,7 +164,7 @@ flex-grow: 1;
 border-bottom: 1px solid #fff;
 width: 100%;
 margin: 40px auto 40px auto;
-} */
+} 
 
 .cocktail-drink-and-txt {
 display: contents;
@@ -336,7 +336,7 @@ display: flex;
 flex: wrap;
 justify-content: space-between;
 padding-top: 15px;
-padding-right: 50px;
+
 }
 
 .contact {
@@ -360,18 +360,66 @@ font-size: 15px;
 
 /* responsive website */
 
+
+@media only screen and (max-width: 360px) {
+#navigation a {
+  padding: 0 10px;
+  font-size: 11px;
+}
+
+  .text-over h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  .main-container .text-over h4 {
+    max-width: 11em;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
+  .cocktails img, .team img {
+    height: 150px;
+    width: 100px;
+    padding: 0px;
+  }
+
+  .text-under {
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .text-under h4 {
+    font-size: 1.5em;
+  }
+
+  .text-under p {
+    font-size: 11px;
+  }
+
+  .map {
+    padding-top: 10px;
+    width: 13em;
+    height: 11em;
+    margin-bottom: 10px;
+  }
+
+  .reservation-container {
+    width: 85%;
+  }
+
+  footer {
+    font-size: small;
+  }
+}
 @media only screen and (max-width: 556px){
 
 
   #navigation {
     padding-left: 0px;
   }
-  .main-container .text-over h4 {
-    max-width: 20em;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 1.5rem;
-  }
+
+
 
   .cocktails img, .team img {
     width: 200px;
@@ -425,13 +473,4 @@ font-size: 15px;
   } 
    
 
-@media only screen (max-width: 1000px) {
-.contact-container {
-  width: 100%;
-  align-items: center;
-  display: flex;
-  flex: wrap;
-  justify-content: space-between;
-  padding-top: 15px;
-}
-}  
+

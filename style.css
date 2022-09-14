@@ -362,10 +362,16 @@ font-size: 15px;
 
 
 @media only screen and (max-width: 556px) {
-#navigation a {
-  padding: 0 10px;
+#navigation a{
+  padding: 0 7px;
   font-size: 11px;
 }
+
+
+.nav-bar li {
+  font-size: 10px;
+}
+
 
   .text-over h2, .contact h2 {
     font-size: 40px;

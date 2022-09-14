@@ -361,107 +361,62 @@ font-size: 15px;
 
 /* responsive website */
 
+@media only screen and (max-width: 556px){
+  .main-container .text-over h4 {
+    max-width: 20em;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+  }
+
+  .cocktails img, .team img {
+    width: 200px;
+    height: 250px;
+    padding-top: 30px;
+  }
+
+  .text-under {
+    max-width: 80%;
+  }
+
+}
 
 @media only screen and (max-width: 800px){
 
-.header {
-font-size: 14px;
-}
-
-.logo {
-display: none;
-
-}
-header {
-font-size: 10px;
-}
-
-.cocktails img{
-height: 1v;
-align-items: center;
-
-}
-.contact-container {
-width: 100%;
-align-items: center;
-display: flex;
-flex: wrap;
-padding-top: 15px;
-flex-direction: column;
-}
-} 
-
-
-
-@media only screen and (max-width: 554px){
-
-.header {
+  #navigation {
+    padding-left: 5px;
+   
+  }
+  
+  .header { 
+  display: grid;
+  font-size: 14px;
   font-size: 12px;
+  }
+  
+  .logo {
+  display: none;
+  
+  }
+  header {
+  font-size: 10px;
+  }
+  
+  .cocktails img{
+  height: 1v;
   align-items: center;
-}
-
-.logo {
-  display: contents;
-}
-
-.main-container {
-height: 612px;
-}
-
-.text-over h2, h2 {
-font-size: 7vh;
-}
-
-.text-over h4 {
-font-size: 3vh;
-width: 600px;
-}
-
-.heading h4 {
-font-size: 3vh;
-}
-
-.text-under h4 {
-font-size: 1.5rem;
-}
-
-.text-under p {
-font-size: 0.8rem;
-}
-
-.cocktails {
-display: inline-block;
-text-align: center;
-}
-
-
-.contact-container {
+  
+  }
+  .contact-container {
+  width: 100%;
+  align-items: center;
   display: flex;
-  text-align: left;
+  flex: wrap;
+  padding-top: 15px;
   flex-direction: column;
-
-}
-
-#contact-us {
-  display: flex;
-  flex-direction: column;
-  height: 627px;
-}
-.cocktails img, .team img {
-  display: table;
-  width: 150px;
-  height: 200px;
-  float: none;
-  margin: 0 auto;
-
-}
-
-.map {
-padding-top: 30px;
-height: 200px;
-width: 300px;
-}
-}
+  }
+  } 
+  
 
 @media only screen (max-width: 1000px) {
 .contact-container {
@@ -472,4 +427,4 @@ width: 300px;
   justify-content: space-between;
   padding-top: 15px;
 }
-} 
+}  

@@ -43,7 +43,6 @@ display: inline-block;
 font-family: 'Finlandica', sans-serif;
 }
 
-
 /*header */
 .header {
   position: absolute;
@@ -362,6 +361,11 @@ font-size: 15px;
 /* responsive website */
 
 @media only screen and (max-width: 556px){
+
+
+  #navigation {
+    padding-left: 0px;
+  }
   .main-container .text-over h4 {
     max-width: 20em;
     padding-left: 20px;
@@ -384,7 +388,7 @@ font-size: 15px;
 
 }
 
-@media only screen and (max-width: 800px){
+ @media only screen and (max-width: 800px){
 
   #navigation {
     padding-left: 5px;
@@ -419,7 +423,7 @@ font-size: 15px;
   flex-direction: column;
   }
   } 
-  
+   
 
 @media only screen (max-width: 1000px) {
 .contact-container {

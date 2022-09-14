@@ -378,6 +378,9 @@ font-size: 15px;
   .text-under {
     max-width: 80%;
   }
+  #navigation a {
+    padding: 0 10px;
+  }
 
 }
 
